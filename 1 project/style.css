@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Bluunext;
+    src: url(/assets/bluunext.woff),url(/assets/bluunext.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Bluunext;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #000000;
+    background-color: #cfffaf;
+    transition: background-color 1s;
+}
+h1,p {
+    width: 650px;
+}
+h1{
+    margin-bottom: 18px;
+    text-indent: -0.4em;
+    font-size: 56px;
+}
+
+h1.long{
+    font-size: 40px;
+}
+
+section{
+   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    padding: 40px 0 40px 0;
+}
+img{
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+img:hover{
+
+    transform: scale(1.5);
+}
