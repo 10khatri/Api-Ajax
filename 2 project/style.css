@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,700');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Space Mono;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #000000;
+    color: #ffffff;
+
+}
+h1{
+    font-weight: 400;
+    font-size: 30vmin;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+nav{
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    
+}
+nav a{  
+    color: #999999;
+    text-decoration: none;
+    margin-left:20px ;
+}
+
+nav a.selected{
+    color: #ffffff;
+}
